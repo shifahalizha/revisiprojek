@@ -94,20 +94,20 @@ https://templatemo.com/tm-589-lugx-gaming
         <div class="container">
             <ul class="trending-filter">
                 <li>
-                    <a class="is_active" href="#!" data-filter="*">PULSA</a>
+                    <a class="is_active" href="#!" data-filter="*">Pulsa</a>
                 </li>
             </ul>
             <div class="row trending-box">
                 <?php foreach ($produkpulsa as $item): ?>
                     <div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
                         <div class="item">
-                            <form action="/produkpulsa/<?= $item['id']; ?>/new" method="get">
+                        <form action="/produkpulsa/<?= $item['id']; ?>/new" method="get">
                                 <div class="thumb">
-                                    <a href="/produkpulsa/<?= $item['id']; ?>"><img src="<?php echo $item['foto']; ?>"alt=""></a>
+                                <a href="/produkpulsa/<?= $item['id']; ?>"><img src="<?php echo $item['foto']; ?>"alt=""></a>
                                     <span class="price"><?php echo $item['harga']; ?></span>
                                 </div>
                                 <div class="down-content">
-                                    <span class="category"><?php echo $item['merek']; ?></span>
+                                <span class="category"><?php echo $item['merek']; ?></span>
                                     <h4><?php echo $item['produk']; ?></h4>
                                     <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
                                 </div>

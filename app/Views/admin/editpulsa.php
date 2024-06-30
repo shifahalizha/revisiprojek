@@ -31,7 +31,7 @@ https://templatemo.com/tm-589-lugx-gaming
         <input type="hidden" name="_method" value="PUT" />
         <br />
         <div class="form-group">
-            <label for="example-product-name">username</label>
+            <label for="example-product-name">No Telefon</label>
             <input type="text" class="form-control" id="example-menu-name" aria-describedby="emailHelp"
                 placeholder="Enter nama menu" required name="username" readonly value="<?= $data['username'] ?>">
         </div>

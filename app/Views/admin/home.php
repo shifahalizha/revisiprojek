@@ -58,6 +58,7 @@ https://templatemo.com/tm-589-lugx-gaming
             <!-- ** Menu Start ** -->
             <ul class="nav">
               <li><a href="/admin">Home</a></li>
+              <li><a href="/daftar">Daftar Produk</a></li>
               <li><a href="<?php echo base_url('/logout'); ?>">Log Out</a></li>
             </ul>
             <a class='menu-trigger'>

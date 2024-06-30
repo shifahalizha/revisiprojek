@@ -33,7 +33,7 @@ https://templatemo.com/tm-589-lugx-gaming
                 onsubmit="return confirm('Pesanan anda akan diproses mohon ditunggu')">
                 <input type="hidden" name="_method" value="POST" />
                 <input type="hidden" name="produk_id" value="<?= $produk['id']; ?>" />
-                <label for="">Username</label>
+                <label for="">No Telefon</label>
                 <br />
                 <input type="text" class="form-control" id="username" placeholder="Your Username" name="username" />
                 <br />

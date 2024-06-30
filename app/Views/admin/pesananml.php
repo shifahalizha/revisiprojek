@@ -42,7 +42,7 @@ https://templatemo.com/tm-589-lugx-gaming
                     <!-- ** Logo End ** -->
                     <!-- ** Menu Start ** -->
                     <ul class="nav">
-                        <li><a href="/admin">Home</a></li>
+                        <li><a href="/admin">Home</a></li><li><a href="/daftar">Daftar Produk</a></li>
                         <li><a href="<?php echo base_url('/logout'); ?>">Log Out</a></li>
                     </ul>
                     <a class='menu-trigger'>
@@ -76,7 +76,7 @@ https://templatemo.com/tm-589-lugx-gaming
                 <thead>
                     <tr>
                         <th scope="col ">No</th>
-                        <th scope="col ">produk Id</th>
+                        <th scope="col ">Produk Id</th>
                         <th scope="col ">Username</th>
                         <th scope="col ">Pembayaran</th>
                         <th scope="col ">Status</th>
